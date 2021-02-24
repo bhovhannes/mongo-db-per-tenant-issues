@@ -1,0 +1,7 @@
+version: "3.6"
+services:
+  mongo:
+    image: mongo:bionic
+    container_name: test-mongo
+    ports:
+      - "27017:27017"
